@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.nav{
+  height: 50px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav > a{
+  text-decoration: none;
+  display: block;
+  color:white;
+  font-size: 1.2rem;
+  margin: 0 15px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.nav > a:hover {
+  background-color: hsl(240, 100%, 90%);
+  color:darkblue;
+  border-radius: 20px;
+  
+
+}
+.active{
+  background-color: crimson;
+  color:white; 
+  border-radius: 20px;
+}
+.container{
+  padding: 10px 20px;
+}
+.container h1{
+  color: darkblue;
+  
+  margin-bottom: 30px;
+  
+}
+.nameContainer{
+  margin-bottom: 40px;
+}
+.center{
+  text-align: center;
+}
